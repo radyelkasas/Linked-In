@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #edf3f4;
+}
+/* Start hedear */
+/* Start NavBar */
+.container .row {
+    padding-top: 20px;
+    align-items: center;
+    justify-content: start;
+}
+.container .row .left {
+    display: flex;
+    margin-right: 10px;
+}
+.container .row .left button {
+    width: 120px;
+    height: 50px;
+    border: 1px solid #0a66c2;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.container .row .left button:hover a {
+    color: #033261;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.container .row .left button a {
+    color: #0a66c2;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.container .row .left a {
+    color: #404040;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+}
+.container .row .left a:hover {
+    color: #0f0f0f;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.container .row .line {
+    width: 1px;
+    height: 50px;
+    text-align: center;
+    background-color: #404040;
+}
+.container .row .center {
+    display: flex;
+    text-align: center;
+
+    margin-left: 10px;
+}
+.container .row .center div {
+    margin-right: 10px;
+}
+.container .row .center div a {
+    text-decoration: none;
+}
+.container .row .center div a i {
+    font-size: 18px;
+    color: #404040;
+}
+.container .row .center div a p {
+    font-size: 14px;
+    color: #404040;
+}
+.container .row .logo {
+    margin: 0 0 12px 10px;
+}
+.container .row .logo a {
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #0a66c2;
+}
+.container .row .logo a:hover {
+    color: #0a66c2;
+}
+@media only screen and (max-width: 900px){
+    .container .row .center,.line {
+        display: none;
+    }
+    .container .row .left button {
+        background-color: transparent;
+        width: 100px;
+    }
+    .container .row .left button a {
+        font-size: 13px;
+    }
+    .container .row .left a p {
+        font-size: 15px;
+        margin: 0;
+    }
+    .container .logo a span,i {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .container .row {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+/* End NavBar */
+/* Start Form */
+body .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+body .form {
+    align-items: center;
+    justify-content: center;
+}
+body .form img {
+    width: 100%;
+    height: 100vh;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}
+body .form .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: right;
+    height: 100%;
+}
+body .form .right-side h1 {
+    margin-bottom: 70px;
+    font-weight: 300;
+    color: #8c5444;
+    width: 100%;
+    font-size: 50px;
+}
+body .form .right-side form input {
+    height: 50px;
+    border-color: #404040;
+}   
+body .form .right-side form input:hover {
+    border: 2px solid #0f0f0f;
+}   
+body .form .right-side form {
+    font-size: 15px;
+}
+body .form .right-side form div a {
+    font-size: 17px;
+    font-weight: bolder;
+}
+body .form .right-side form button {
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+body .form .right-side .and {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+body .form .right-side .and p {
+    font-size: 17px;
+    margin: auto 5px;
+}
+body .form .right-side .and span {
+    background-color: #404040;
+    width: 15vw;
+    height: 1px;
+    opacity: 0.5;
+}
+.form .right-side .button div button {
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+.form .right-side .button a {
+    width: 100%;
+    text-decoration: none;
+    color: #404040;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 10px;
+}
+.form .right-side button:hover a {
+    color: #0f0f0f;
+}
+body .form .right-side .button img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 4px;
+    margin-right: 3px;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+body .form .right-side .button .down {
+    direction: rtl;
+}
+@media only screen and (max-width: 950px){
+    .form {
+        margin-top: 50px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .form .col-lg-7 {
+        margin-top: 80px;
+    }
+}
+/* End Form */
+/* Start Footer */
+/* Start Down Section */
+footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .down {
+    width: 100%;
+    text-align: right;
+}
+footer .down h1 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+footer .down ul {
+    margin-top: 20px;
+}
+footer .down ul li {
+    list-style: none;
+    margin-top: 5px;
+}
+footer .down ul li a {
+    color: #404040;
+    font-weight: 400;
+}
+footer .down ul li a:hover {
+    color: #0a66c2;
+}
+@media only screen and (max-width: 769px) {
+    footer .down {
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+}
